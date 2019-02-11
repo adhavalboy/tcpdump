@@ -540,11 +540,11 @@ static const struct tok lldp_mdi_power_class_values[] = {
     { 0, NULL}
 };
 
-#define LLDP_AGGREGATION_CAPABILTIY     (1 <<  0)
+#define LLDP_AGGREGATION_CAPABILITY     (1 <<  0)
 #define LLDP_AGGREGATION_STATUS         (1 <<  1)
 
 static const struct tok lldp_aggregation_values[] = {
-    { LLDP_AGGREGATION_CAPABILTIY, "supported"},
+    { LLDP_AGGREGATION_CAPABILITY, "supported"},
     { LLDP_AGGREGATION_STATUS, "enabled"},
     { 0, NULL}
 };
@@ -588,7 +588,7 @@ static const struct tok lldp_intf_numb_subtype_values[] = {
 static const struct tok lldp_evb_mode_values[]={
     { LLDP_EVB_MODE_NOT_SUPPORTED, "Not Supported"},
     { LLDP_EVB_MODE_EVB_BRIDGE, "EVB Bridge"},
-    { LLDP_EVB_MODE_EVB_STATION, "EVB Staion"},
+    { LLDP_EVB_MODE_EVB_STATION, "EVB Station"},
     { LLDP_EVB_MODE_RESERVED, "Reserved for future Standardization"},
     { 0, NULL},
 };
